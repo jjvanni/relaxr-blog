@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a:link {
+	color: #121212;
+}
+a:hover {
+	color: #121212;
+}
+/* HEADER */
+header {
+	background-color: #033048;
+	height: 100px;
+	display: inline-block;
+	width: 100%;
+}
+h1 {
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 30px 5% 30px 80px;
+	width: 100px;
+	float: left;
+}
+nav {
+	float: left;
+	width: 70%;
+	padding-top: 30px;
+	padding-right: 2%;
+	text-align: right;
+}
+.navlink {
+	padding: 10px 2.5% 10px 2.5%;
+	color: #f9e42e;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* MAIN */
+main {
+	color: #033048;
+	float: left;
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+article {
+	border-bottom: solid 1px black;
+	padding-bottom: 60px;
+	font-weight: lighter;
+}
+.artpara {
+	font-weight: lighter;
+	font-size: 20px;
+}
+.rmlink {
+	text-decoration: none;
+	float: right;
+	margin-top: 20px;
+}
+
+/* ASIDE */
+aside {
+	float: right;
+	width: 25%;
+	margin-top: 80px;
+	margin-right: 10%;
+	color: #033048;
+}
+.asidetitles {
+	font-weight: bold;
+}
+
+/******** Categories ********/
+.categories {
+	float: left;
+	width: 100%;
+	padding-right: 2%;
+	text-align: left;
+}
+#catnav {
+	display: inline-block;
+	margin-bottom: 50px;
+	text-decoration: none;
+	font-size: 18px;
+	clear: right;
+}
+.catlink {
+	margin-bottom: 2px;
+	margin-top: 0px;
+}
+.catselect {
+	text-decoration: none;
+}
+.catselect:hover {
+	text-decoration: none;
+	color: #121212;
+}
+/********* ABOUT US **********/
+#aboutus {
+	margin-bottom: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+#aboutpara {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+#learnmore {
+	text-decoration: none;
+	margin-top: 0;
+	font-size: 20px;
+}
+
+/****** FOOTER ********/
+footer {
+	clear: left;
+	text-align: center;
+	background-color: #121212;
+	color: white;
+	margin: 0;
+}
+#signupbar {
+	height: 100px;
+	background-color: #f9e42e;
+}
+button {
+	background-color: #033048;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	border: none;
+	border-radius: 5px;
+	height: 60px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+#social {
+	padding-top: 40px;
+}
+.icons {
+	margin: 20px;
+}
+#footerlogo {
+	margin-top: 0;
+	margin-bottom: 40px;
+	color: #f9e42e;
+	font-size: 40px;
+	width: 100%;
+	margin-left: 0;
+	font-weight: bold;
+}
+#copyright {
+	font-size: 10px;
+}
