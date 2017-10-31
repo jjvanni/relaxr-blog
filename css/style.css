@@ -6,11 +6,9 @@ body {
 	font-size: 24px;
 	font-weight: lighter;
 }
-a:link {
-	color: #121212;
-}
+
 a:hover {
-	color: #121212;
+	text-decoration: underline;
 }
 /* HEADER */
 header {
@@ -21,8 +19,8 @@ header {
 }
 h1 {
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
+	font-size: 36px;
+	font-weight: 800;
 	margin: 30px 5% 30px 80px;
 	width: 100px;
 	float: left;
@@ -40,6 +38,7 @@ nav {
 	display: inline-block;
 	text-decoration: none;
 	font-size: 18px;
+	font-weight: 500;
 }
 
 /* MAIN */
@@ -49,7 +48,7 @@ main {
 	width: 50%;
 	margin-left: 10%;
 	margin-top: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	font-family: 'Open Sans', sans-serif;
 }
 article {
@@ -57,14 +56,36 @@ article {
 	padding-bottom: 60px;
 	font-weight: lighter;
 }
+.art-background {
+	background-image: url();
+}
+.art-title {
+	font-weight: 800;
+}
 .artpara {
 	font-weight: lighter;
 	font-size: 20px;
+	color: #121212;
 }
 .rmlink {
 	text-decoration: none;
 	float: right;
 	margin-top: 20px;
+	font-weight: 700;
+	color: #033048;
+}
+.rmlink:hover {
+	text-decoration: underline;
+}
+.firstclass {
+	color: #121212;
+	float: left;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+	font-weight: bolder;
 }
 
 /* ASIDE */
@@ -76,7 +97,7 @@ aside {
 	color: #033048;
 }
 .asidetitles {
-	font-weight: bold;
+	font-weight: 800;
 }
 
 /******** Categories ********/
@@ -99,24 +120,30 @@ aside {
 }
 .catselect {
 	text-decoration: none;
+	color: #033048;
 }
 .catselect:hover {
 	text-decoration: none;
-	color: #121212;
+	color: #f9e42e;
 }
 /********* ABOUT US **********/
 #aboutus {
 	margin-bottom: 50px;
-	font-family: 'Open Sans', sans-serif;
 }
 #aboutpara {
 	margin-bottom: 0;
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: 100px;
 }
 #learnmore {
 	text-decoration: none;
 	margin-top: 0;
 	font-size: 20px;
+	font-weight: 600;
+	color: #033048;
+}
+#learnmore:hover {
+	text-decoration: underline;
 }
 
 /****** FOOTER ********/
@@ -153,11 +180,13 @@ button {
 	margin-top: 0;
 	margin-bottom: 40px;
 	color: #f9e42e;
-	font-size: 40px;
+	font-size: 36px;
 	width: 100%;
 	margin-left: 0;
-	font-weight: bold;
+	font-weight: 800;
 }
 #copyright {
 	font-size: 10px;
+	margin-bottom: 0px;
+	font-weight: 500;
 }
