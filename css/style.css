@@ -25,6 +25,10 @@ h1 {
 	width: 100px;
 	float: left;
 }
+#companylogo {
+	color: white;
+	text-decoration: none;
+}
 nav {
 	float: left;
 	width: 70%;
@@ -40,8 +44,11 @@ nav {
 	font-size: 18px;
 	font-weight: 500;
 }
+.navlink:hover {
+	font-weight: 600;
+}
 
-/* MAIN */
+/**********     MAIN    ***********/
 main {
 	color: #033048;
 	float: left;
@@ -57,10 +64,19 @@ article {
 	font-weight: lighter;
 }
 .art-background {
-	background-image: url();
+	background-image: url(https://wallpaperclicker.com/storage/wallpaper/undersea-wallpapers-picture-77734744.jpg);
+	padding: 2px 5px 2px 5px;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .art-title {
 	font-weight: 800;
+	margin: 0;
+	padding-left: 10px;
+}
+.artimg {
+	width: 100%;
 }
 .artpara {
 	font-weight: lighter;
@@ -100,6 +116,7 @@ aside {
 	font-weight: 800;
 }
 
+
 /******** Categories ********/
 .categories {
 	float: left;
@@ -123,9 +140,11 @@ aside {
 	color: #033048;
 }
 .catselect:hover {
-	text-decoration: none;
-	color: #f9e42e;
+	text-decoration: underline;
+	font-weight: 500;
 }
+
+
 /********* ABOUT US **********/
 #aboutus {
 	margin-bottom: 50px;
@@ -145,6 +164,7 @@ aside {
 #learnmore:hover {
 	text-decoration: underline;
 }
+
 
 /****** FOOTER ********/
 footer {
@@ -186,7 +206,8 @@ button {
 	font-weight: 800;
 }
 #copyright {
-	font-size: 10px;
+	font-size: 14px;
 	margin-bottom: 0px;
 	font-weight: 500;
+	padding-bottom: 30px;
 }
